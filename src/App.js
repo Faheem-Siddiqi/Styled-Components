@@ -60,7 +60,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <br />
-      <CustomBtn bg="teal" textClr="white" > Custom Button with prop</CustomBtn> {/* using style componet with prop*/}
+      <CustomBtn bg="teal" textClr="white" > Custom Button using prop</CustomBtn> {/* using style componet with prop*/}
       <ButtonWrapper>
         <button class="bn632-hover bn24" >Inline Button with variable </button>  {/*using style with variable of val set by theme  */}
 
